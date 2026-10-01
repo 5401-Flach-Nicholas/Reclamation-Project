@@ -2,6 +2,9 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
+# Code for Streamlit app by Nicholas Flach, 2026, all rights reserved.
+
+
 # Gray text
 st.markdown("""
 <style>
