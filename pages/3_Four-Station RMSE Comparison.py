@@ -2,6 +2,27 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
+# font size increase
+
+st.markdown("""
+<style>
+/* Increase normal text */
+html, body, [class*="css"] {
+    font-size: 21px;
+}
+
+/* Title */
+h1 {
+    font-size: 43px !important;
+}
+
+/* Subheaders */
+h3 {
+    font-size: 30px !important;
+}
+</style>
+""", unsafe_allow_html=True)
+
 combinations = [
     [5, 6, 9, 1],  [5, 6, 9, 2],  [5, 6, 9, 3], 
     [5, 6, 9, 4],  [5, 6, 9, 7],  [5, 6, 9, 8], 

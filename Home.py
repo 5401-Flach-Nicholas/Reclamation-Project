@@ -14,6 +14,27 @@ p {
 </style>
 """, unsafe_allow_html=True)
 
+# font size increase
+
+st.markdown("""
+<style>
+/* Increase normal text */
+html, body, [class*="css"] {
+    font-size: 21px;
+}
+
+/* Title */
+h1 {
+    font-size: 43px !important;
+}
+
+/* Subheaders */
+h3 {
+    font-size: 30px !important;
+}
+</style>
+""", unsafe_allow_html=True)
+
 st.set_page_config(
     page_icon="📊"
 )
